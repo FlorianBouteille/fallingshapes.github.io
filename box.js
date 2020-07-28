@@ -34,7 +34,7 @@ function makeBubble(x, y, r)
         translate(pos.x, pos.y);
         rectMode(CENTER);
         rotate(angle);
-        circle(0, 0, r);
+        circle(0, 0, 2*r);
         pop();
     }
 }
